@@ -1,0 +1,61 @@
+
+
+
+header{
+ text-align: center;
+ background: url("http://www.stcs.co.uk/wp-content/uploads/2015/08/homepage-background.png");
+ background-size: cover;
+
+}
+body{
+margin: 0 auto;
+font-family: helvetica
+
+}
+
+div{
+height: 200px;
+background-size: cover;
+background-position: center;
+position: relative;
+margin: 40px 0 0 0;
+border-radius: 12px;
+
+}
+
+.first{
+
+  background:url("filepath")
+}
+
+.second{
+ background: url("filepath")
+
+}
+
+img{
+ margin: 40px 0px 0px 0px;
+ border: 7px solid white;
+ border-radius: 20px;
+}
+ul{
+ padding: 10px;
+
+}
+
+li{
+display:inline;
+padding: 20px;
+
+}
+a{
+ text-decoration: none;
+ color: white;
+
+}
+
+h2{
+color: purple;
+
+
+}
