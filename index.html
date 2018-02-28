@@ -4,46 +4,62 @@
 
  <head>
     <!--<link href="/normalise.css" rel="stylesheet">  -->
-     <title> First website</title>
 
-
+         <meta charset="utf-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title> First website</title>
      <!-- linking the bootstrap file-->
-     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
-     <link rel="stylesheet" type="text/css" href="index.css">
-     <!-- this links to the jquery library-->
-     <script src="js/bootstrap.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
+        <link rel="stylesheet" type="text/css" href="index.css">
 
-     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
  </head>
 <body> <!-- anything that you want to be visible on the web page needs to
             in the body --->
 
 
-      <nav class="clearfix">
-        <ul class="clearfix">
-         <li><a href="#"> Home</a></li>
-         <li><a href="#"> About</a></li>
-         <li><a href="#"> Blog</a></li>
-       </ul>
-       <a href ="#" id="pull">Menu</a>
-      </nav>
 
 
-
-<!--
 <header>
 <img src= "/Users/jessic/Pictures/Prints/hadrian.jpg" width="150" height="150"/>
 <h1> Hello World!</h1>
 
-<ul>
-  <li><a href="#"> About Me </a></li>
-  <li><a href="#"> Blog </a></li>
-  <li><a href="#"> Something Else </a></li>
 
-</ul>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+
+   <div class="container">
+
+      <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+          <a class="navbar-brand" href="#"> Project name</a>
+
+        </div>
+
+        <div id = "navbar" class="collapse navbar-collapse">
+
+          <ul class="nav navbar-nav">
+
+            <li class="active"> <a href="#"> Home</a>
+            <li><a href="#About"> About Me </a></li>
+            <li><a href="#Blog"> Blog </a></li>
+            <li><a href="#Something"> Something Else </a></li>
+
+       </ul>
+
+     </div>
+
+   </div>
+
+ </nav>
 
 </header>
--->
+
 
 <h2> Information about various things </h2>
 
@@ -109,7 +125,9 @@ of each div that foats up when hovered on  -->
 <li> four </li>
 </ul>
 
-
+<!-- this links to the jquery library-->
+<script src="js/bootstrap.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src= "js/bootstrap.min.js"></script>
 </body>
 </html>
-
